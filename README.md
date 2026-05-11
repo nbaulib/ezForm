@@ -17,14 +17,20 @@ Providing feedback after every class is is important but filling out multiple fo
 git clone <>
 cd deloop
 ```
+### 2. Create a virtual environment
 
-### 2. Install dependencies
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Create Slack App
+### 4. Create Slack App
 Go to https://app.slack.com/ and make a new Slack App using this App Manifest (YAML)
 ```
 display_information:
@@ -57,7 +63,7 @@ settings:
 Then invite deloop to the desired channels
 
 
-### 4. Create `.env`
+### 5. Create `.env`
 
 ```env
 SLACK_BOT_TOKEN=xoxb_your_bot_token
