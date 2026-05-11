@@ -14,8 +14,8 @@ Providing feedback after every class is is important but filling out multiple fo
 ### 1. Clone the repository
 
 ```bash
-git clone <>
-cd deloop
+git clone https://github.com/nbaulib/deloopForm.git
+cd deloopForm
 ```
 ### 2. Create a virtual environment
 
@@ -29,6 +29,9 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+Note:
+If you have dependency or Pylance issues, make sure your IDE is opened with `deloopForm` as the root project folder.
 
 ### 4. Create Slack App
 Go to https://app.slack.com/ and make a new Slack App using this App Manifest (YAML)
@@ -68,6 +71,12 @@ Then invite deloop to the desired channels
 ```env
 SLACK_BOT_TOKEN=xoxb_your_bot_token
 SLACK_APP_TOKEN=xapp_your_app_token
+```
+
+### 5. Run bot.py
+
+```
+python bot.py
 ```
 
 ## Usage
