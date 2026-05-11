@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 
 Note:
-If you have dependency or Pylance issues, make sure your IDE is opened with `deloopForm` as the root project folder.
+If you have dependency or Pylance issues, make sure your IDE is opened with `deloopForm` as the root project folder and select the correct interpreter.
 
 ### 4. Create Slack App
 Go to https://app.slack.com/ and make a new Slack App using this App Manifest (YAML)
